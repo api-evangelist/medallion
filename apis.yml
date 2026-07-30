@@ -1,22 +1,49 @@
 aid: medallion
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/medallion.png
 name: Medallion
-description: 'Medallion is a company surfaced as a portfolio company of gv, susa-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Medallion is an AI-powered healthcare operations platform for provider
+  credentialing, enrollment, and licensing, operated by FirstLayerAI, Inc. It
+  positions itself as the AI operations partner powering healthcare's first
+  real-time CVO (Credentialing Verification Organization), NCQA-certified, and
+  serves provider groups, payers, health systems, RCM organizations, and digital
+  health companies. Capabilities span provider data management, delegated
+  credentialing, roster management, privileging, cross-state licensing, ongoing
+  credential monitoring, and CredAlliance, its proprietary payer clearinghouse.
+  Medallion is SOC 2 compliant and publishes a Trust Center. As of this profile
+  there is no public developer API surface; enrichment captured the company's
+  identity, compliance posture, and domain security.
 url: https://raw.githubusercontent.com/api-evangelist/medallion/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - gv
 - susa-ventures
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: enriched-no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Enterprise
+- Healthcare
+- Credentialing
+- Provider Data
+- Licensing
+- Payer Enrollment
+- Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +52,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: Medallion.co
+  url: https://www.medallion.co
+- type: Support
+  url: https://support.medallion.co/en/
+- type: Blog
+  url: https://www.medallion.co/resources/blog
+- type: Pricing
+  url: https://www.medallion.co/pricing
+- type: Login
+  url: https://app.medallion.co/login/auth0
+- type: TermsOfService
+  url: https://www.medallion.co/terms
+- type: PrivacyPolicy
+  url: https://www.medallion.co/privacy
+- type: Compliance
+  url: https://www.medallion.co/compliance
+- type: TrustCenter
+  url: https://trust.medallion.co/
+- type: Conformance
+  url: conformance/medallion-conformance.yml
+- type: DomainSecurity
+  url: security/medallion-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
