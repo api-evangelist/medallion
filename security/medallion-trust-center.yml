@@ -1,0 +1,20 @@
+generated: '2026-07-20'
+method: searched
+probe: false
+url: https://trust.medallion.co/
+certifications:
+  - SOC 2
+  - NCQA Certified for Credentialing
+source: https://www.medallion.co/compliance
+notes: >
+  A "Medallion Trust Center" is published at https://trust.medallion.co/ (title
+  confirmed; body is client-side rendered so certifications were sourced from the
+  public compliance page at medallion.co/compliance). The compliance page also
+  references a "Medallion AI Security and Safety" document and enterprise-grade
+  security controls (encryption, strict access management, infrastructure audits,
+  formal incident response).
+evidence:
+  - source: https://www.medallion.co/compliance
+    keywords: [soc 2, ncqa, security, compliance]
+  - source: https://trust.medallion.co/
+    keywords: [trust center]
